@@ -1,0 +1,137 @@
+.highlight {
+    background-color: green;
+    font-weight: bold;
+}
+
+.card-block {
+    min-height: 220px;
+}
+
+#box::-webkit-scrollbar {
+    width: 0 !important
+}
+
+body::-webkit-scrollbar {
+    width: 0 !important
+}
+
+#box {
+    overflow-y: visible;
+    overflow-x: auto;
+    white-space: nowrap;
+    vertical-align: text-top;
+    /* margin: 0; */
+    padding: 0;
+    width: 100%;
+    clear: both;
+    border-spacing: 5px;
+}
+
+.intro-section {
+    display: table-cell;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    overflow-y: hidden;
+    /* don't show content that exceeds my height */
+}
+
+.body-film {
+    height: 100%;
+    overflow-y: auto;
+    background-color: darkblue;
+}
+
+.block-film {
+    min-height: 100%;
+    overflow-y: hidden;
+    /* don't show content that exceeds my height */
+    background-color: seagreen;
+}
+
+.bg-default {
+    background-color: green;
+}
+
+.bg-funcionario {
+    background-color: dodgerblue;
+}
+
+.bg-manager {
+    background-color: crimson;
+}
+
+.bg-admin {
+    background-color: black;
+}
+
+.bg-submenu {
+    background-color: DarkGreen;
+}
+
+.fa-chevron-left {
+    color: green;
+}
+
+.fa-shopping-cart {
+    color: whitesmoke;
+}
+
+.fa-bars {
+    color: black;
+}
+
+.fa-sign-in-alt {
+    color: whitesmoke;
+}
+
+.fa-user-circle {
+    color: whitesmoke;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
+
+/* alinha o logo no centro da navbar*/
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.flex-odd{
+    width: 25%;
+    border:1px solid darkgray;
+  }
+
+.divFiltro{
+    width:100%;
+}
+
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #printableArea * {
+      visibility: visible;
+    }
+    #printableArea {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+}
